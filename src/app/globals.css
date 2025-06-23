@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #007AFF;
+  --color-primary: #10B981; /* changed from #007AFF (blue) to green */
   --color-secondary: #6B7280;
   --color-dark: #1F2937;
   --color-light: #F9FAFB;
@@ -13,7 +13,6 @@
   --animation-fade-in: fadeIn 0.5s ease-in-out;
   --animation-slide-up: slideUp 0.5s ease-in-out;
 }
-
 
 @custom-variant dark (&:where(.dark, .dark *));
 
